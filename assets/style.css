@@ -1,42 +1,45 @@
 body {
-    background-color: #FFFFF0;
-    margin: 0;
+    background-color: #d9ebfa;
     width: 100%;
 }
 
-header {
+.header {
+    background-color: rgb(30, 118, 145);
     display: flex;
-    background-color: rgb(30, 118, 145);;
+    padding: 30px 0 20px 0;
     justify-content: space-between;
     align-items: center;
+    color: white;
     width: 100%;
-    /* padding: 8px; */
-    height: 100px;
 
 }
 
-header h1 {
+.header h1 {
     background-color: rgb(30, 118, 145);
     color: white;
-    font-size: 55pt;
     display: inline;
-    padding: 15px 0 15px 10px;
-    flex: 0 1 auto;
+    font-size: 50pt;
+    margin-left: 15px;
+    width: auto;
+    padding: 10px;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 .nav li {
     display: inline;
-    background-color: rgb(30, 118, 145);
-    color: white;
+    margin-right: 15px;
     font-size: 18pt;
-    padding: 15px 0 15px 0;
+    width: auto;
+    font-family: 'Sansita Swashed', cursive;
+
 }
  
  /*links are white and have no underline*/
  .nav a {
     text-decoration: none;
     color: white;
-    padding-right: 15px;
+    padding: 15px;
+
  }
 
 #heroImage {
@@ -46,7 +49,6 @@ header h1 {
     margin-bottom: 25px;
     background-image: url("../images/nature-2531761_1920.jpg");
     background-size: cover;
-    /* background-position: center; */
   }
   
 #heroImage h2 {
@@ -57,56 +59,108 @@ header h1 {
     background-color: rgb(30, 118, 145);
     padding: 5px;
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
   }
 
 #heroImage img {
     
     padding: 8px;
-    border-radius: 50px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    padding: 1px;
+    width: 12%;
+    height: 90%;
+    opacity: 0.8;
+
 }
 
-  .aboutMe {
-    min-width: 1024px;
-    min-height: 200px;
-    margin: 20px;
+main {
+
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+
+}
+
+#aboutMe, #work {
+
+   display: flex;
+   flex-direction: row;
+   margin: 10px 15px 10px 15px;
+
 }
 
 aside {
-    border-right: 5px solid rgb(30, 118, 145);
+
+    display: block;
+    justify-content: flex-end;
+    padding: 15px;
+    margin-right: 5px;
+    border-right: 3px solid rgb(30, 118, 145);
+
+}
+
+aside h2 {
+
     text-align: right;
- 
+    display: block;
+    font-size: 40px;
+    font-family: 'Sansita Swashed', cursive;
+    color: rgb(8, 56, 63);
+
 }
 
 
-.aboutMe p {
-    order: 2;
-    flex: 1 0 80%;
-    display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 14pt;
-    padding: 25px 25px 0 25px;
+#aboutMe p {
+
+    padding: 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
     text-align: justify;
-    background-color: cornsilk;
-    
+    background-color: rgb(30, 118, 145);
+    color: white;
+    margin: 0px 5px 0px 5px;
+    display: block;
+    letter-spacing: 1px;
+
+}
+
+#images {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
 #Horiseon {
+
     width: 100%;
-    height: 400px;
-    /* position: relative; */
- 
+
 }
 
-#HoriseonImage {
-    width: 100%;
-    height: 400px;
+.workExample {
+
+    background-size: 100%;
+    width: 49%;
+    height: 300px;
+    margin: 12px 5px 12px 5px;
+    border: 3px solid rgb(30, 118, 145);
     position: relative;
+    opacity: 1;
+
+}
+
+img {
+
+    width: 100%;
+    height: 100%;
+
 }
 
 #textbox {
+
     position: absolute;
     bottom: 5%;
     left: 3%;
@@ -114,38 +168,48 @@ aside {
     background-color: rgb(30, 118, 145);
     padding: 1px;
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
+
 }
 
   footer {
+
     display: flex;
-    justify-content: flex-start;
-    padding: 30px 0 20px 0;
     justify-content: space-between;
+    padding: 30px 0 20px 0;
     background-color: rgb(30, 118, 145);
     color: floralwhite;
     margin-bottom: 5px;
     width: 100%;
     margin-top: 10px;
+
 }
 
 footer h2 {
+
     display: inline;
     flex: 0 1 auto;
     font-size: 28pt;
-    margin-left: 15px;
+    margin-left: 32px;
     width: 10%;
+    font-family: 'Sansita Swashed', cursive;
+
 }
 
 footer li {
+    
    display: inline;
    width: 85%;
-   margin: 15px;
-   font-size: 18pt;
+   margin: 15px 28px 15px 15px;
+   font-size: 16pt;
+   font-family: 'Sansita Swashed', cursive;
    
 }
 
 footer a {
+
     text-decoration: none;
     color: white;
-    flex: 0 1 auto;
+   text-align: right; 
+
 }
