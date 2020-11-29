@@ -6,7 +6,7 @@ body {
 .header {
     background-color: rgb(30, 118, 145);
     display: flex;
-    padding: 30px 0 20px 0;
+    padding: 30px 25px 30px 30px;
     justify-content: space-between;
     align-items: center;
     color: white;
@@ -21,7 +21,7 @@ body {
     font-size: 60pt;
     margin-left: 15px;
     width: auto;
-    padding: 10px;
+    /* padding: 10px 10px 28px 10px; */
     font-family: 'Sansita Swashed', cursive;
 }
 
@@ -228,9 +228,21 @@ footer a {
         text-align: center;
     }
 
+    nav li {
+        font-size: 10px;
+    }
+
     header {
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    #portrait {
+        display: none;
+    }
+
+    #heroImage h2 {
+        display: none;
     }
 
     .workExample {
@@ -244,13 +256,30 @@ footer a {
 @media screen and (max-width: 600px) {
 
     h1 {
-        font-size: 30px;
+        font-size: 16px;
         text-align: center;
     }
 
-    header {
+    .header {
         flex-direction: column;
         flex-wrap: wrap;
+        /* padding: 5px; */
+    }
+
+    .nav li {
+        display: none;
+        /* font-size: 10px;
+        padding: 25px;
+        justify-content: center;
+        text-align: center; */
+    }
+
+    #portrait {
+        display: none;
+    }
+
+    #heroImage h2 {
+        display: none;
     }
 
     .workExample {
@@ -258,6 +287,45 @@ footer a {
         flex-direction: column;
 
     }
+
+    #aboutMe, #work {
+        flex-direction: column;
+    }
+
+    #image {
+        width: 100%;
+    }
+
+    #textbox {
+        font-size: 14px;
+    }
+
+    aside {
+        justify-content: center;
+        border-right: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    footer {
+
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 8px;
+
+    }
+
+    footer h2 {
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    footer li {
+        font-size: 14px;
+        padding-top: 25px;
+    }
+
     
 }
 
@@ -278,9 +346,13 @@ footer a {
     }
     
     .workExample {
-        width: 100%;
+    
         flex-direction: column;
 
+    }
+
+    #breweryHopper {
+        width: 100%;
     }
     
 }
