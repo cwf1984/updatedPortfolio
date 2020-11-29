@@ -1,5 +1,5 @@
 body {
-    background-color: #d9ebfa;
+    background-color: #f9faef;
     width: 100%;
 }
 
@@ -18,7 +18,7 @@ body {
     background-color: rgb(30, 118, 145);
     color: white;
     display: inline;
-    font-size: 50pt;
+    font-size: 60pt;
     margin-left: 15px;
     width: auto;
     padding: 10px;
@@ -57,8 +57,8 @@ body {
     right: 5%;
     color: white;
     background-color: rgb(30, 118, 145);
-    padding: 5px;
-    font-size: 20px;
+    padding: 8px;
+    font-size: 28px;
     font-family: 'Lato', sans-serif;
   }
 
@@ -93,12 +93,14 @@ main {
 
 aside {
 
-    display: block;
+    display: flex;
     justify-content: flex-end;
     padding: 15px;
     margin-right: 5px;
     border-right: 3px solid rgb(30, 118, 145);
-
+    width: 20%;
+    text-shadow: 5px 5px 15px rgba(12, 39, 146, 0.43);
+    
 }
 
 aside h2 {
@@ -107,7 +109,7 @@ aside h2 {
     display: block;
     font-size: 40px;
     font-family: 'Sansita Swashed', cursive;
-    color: rgb(8, 56, 63);
+    color: rgb(12, 71, 80);
 
 }
 
@@ -123,6 +125,8 @@ aside h2 {
     margin: 0px 5px 0px 5px;
     display: block;
     letter-spacing: 1px;
+    width: 80%;
+    box-shadow: 0px 1px 9px 0px rgba(12, 39, 146, 0.43)
 
 }
 
@@ -131,10 +135,12 @@ aside h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0 10px 0 10px;
+    width: 80%;
 
 }
 
-#Horiseon {
+#BreweryHopper {
 
     width: 100%;
 
@@ -145,10 +151,12 @@ aside h2 {
     background-size: 100%;
     width: 49%;
     height: 300px;
-    margin: 12px 5px 12px 5px;
-    border: 3px solid rgb(30, 118, 145);
+    margin: 12px 0 12px 5px;
+    border: 3px solid rgb(30, 114, 139);
+    box-shadow: 0px 1px 9px 0px rgba(12, 39, 146, 0.43);
     position: relative;
     opacity: 1;
+
 
 }
 
@@ -166,7 +174,7 @@ img {
     left: 3%;
     color: white;
     background-color: rgb(30, 118, 145);
-    padding: 1px;
+    padding: 8px;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
 
@@ -210,6 +218,69 @@ footer a {
 
     text-decoration: none;
     color: white;
-   text-align: right; 
+    text-align: right; 
 
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .workExample {
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .workExample {
+        width: 100%;
+        flex-direction: column;
+
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+
+    header {
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+    
+    .workExample {
+        width: 100%;
+        flex-direction: column;
+
+    }
+    
 }
