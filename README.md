@@ -27,7 +27,7 @@ Or use the URL listed below to view the live webpage.
 
 Below is an image of the finished project:
 
-![Updated Portfolio](./images/portfolioPic.png "Updated Portfolio")
+![Updated Portfolio](./images/portfolioPic.png "Portfolio Pic")
 
 
 ## Credits
