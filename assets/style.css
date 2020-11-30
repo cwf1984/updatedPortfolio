@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    background-color: rgb(30, 118, 145);
+    background-color: rgb(23, 94, 116);
     display: flex;
     padding: 30px 25px 30px 30px;
     justify-content: space-between;
@@ -15,7 +15,6 @@ body {
 }
 
 .header h1 {
-    background-color: rgb(30, 118, 145);
     color: white;
     display: inline;
     font-size: 60pt;
@@ -56,7 +55,7 @@ body {
     bottom: 10%;
     right: 5%;
     color: white;
-    background-color: rgb(30, 118, 145);
+    background-color: rgb(23, 94, 116);
     padding: 8px;
     font-size: 28px;
     font-family: 'Lato', sans-serif;
@@ -120,7 +119,7 @@ aside h2 {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     text-align: justify;
-    background-color: rgb(30, 118, 145);
+    background-color: rgb(23, 94, 116);
     color: white;
     margin: 0px 5px 0px 5px;
     display: block;
@@ -152,7 +151,7 @@ aside h2 {
     width: 49%;
     height: 300px;
     margin: 12px 0 12px 5px;
-    border: 3px solid rgb(30, 114, 139);
+    border: 3px solid rgb(23, 94, 116);
     box-shadow: 0px 1px 9px 0px rgba(12, 39, 146, 0.43);
     position: relative;
     opacity: 1;
@@ -175,8 +174,9 @@ img {
     color: white;
     background-color: rgb(30, 118, 145);
     padding: 8px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
 
 }
 
@@ -185,7 +185,7 @@ img {
     display: flex;
     justify-content: space-between;
     padding: 30px 0 20px 0;
-    background-color: rgb(30, 118, 145);
+    background-color: rgb(23, 94, 116);
     color: floralwhite;
     margin-bottom: 5px;
     width: 100%;
